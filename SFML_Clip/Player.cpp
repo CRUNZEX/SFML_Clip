@@ -1,9 +1,5 @@
 #include "Player.h"
 
-void Player::initVariables()
-{
-}
-
 void Player::initTexture()
 {
 	if (!this->texture.loadFromFile("Pictures/Player.png"))
@@ -24,7 +20,6 @@ void Player::initSprite()
 
 Player::Player()
 {
-	this->initVariables();
 	this->initTexture();
 	this->initSprite();
 

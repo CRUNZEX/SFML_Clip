@@ -12,7 +12,6 @@ private:
 	sf::IntRect currentFrame;
 
 	//Core
-	void initVariables();
 	void initTexture();
 	void initSprite();
 
