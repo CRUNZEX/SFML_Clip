@@ -61,12 +61,4 @@ void Player::updateMovement()
 		this->move(1.f, 0.f);
 	}
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-	{
-		this->move(0.f, -1.f);
-	}
-	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-	{
-		this->move(0.f, 1.f);
-	}
 }
